@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site professionnel sur la dépression">
+    <title>La dépression - FASO_PSY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu {
+    width: 200px;
+}
+
+.menu h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu .alinéa {
+    margin-left: 15px;
+}
+
+.body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.black {
+    color: black;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.colonne-gauche {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.colonne-droite {
+    width: 30%;
+}
+
+/* Theme toggle styles */
+.themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ToggleBtn {
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.themeBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>La dépression</h1>
+</header>
+
+<div class="content">
+    <div class="menu">
+        <h2>Contenu</h2>
+        <ul>
+            <li><a href="#informations">Informations</a>
+                <ul>
+                    <li><a href="#causes">Causes</a></li>
+                    <li><a href="#symptomes">Symptômes</a></li>
+                    <li><a href="#traitement">Traitement</a></li>
+                    <li><a href="#population">Population</a></li>
+                    <li><a href="#autres">Autres</a></li>
+                </ul>
+            </li>
+            <li><a href="#interviews">Interviews</a></li>
+            <li><a href="#ressources">Ressources</a>
+                <ul>
+                    <li><a href="#aide-intervention">Aide intervention</a></li>
+                    <li><a href="#organismes">Organismes</a></li>
+                </ul>
+            </li>
+            <li><a href="#réseaux-sociaux">Réseaux sociaux</a></li>
+            <li><a href="#bibliographie">Bibliographie</a></li>
+        </ul>
+    </div>
+    
+    <!-- CONTENU DU SITE -->
+    <!-- Informations, Causes, Symptômes, Traitement, Population, Autres, Interviews, Ressources, Réseaux sociaux, Bibliographie -->
+
+    <h3 id="informations" class="body">Informations</h3>
+    <p class="body">La dépression est le trouble d'humeur le plus commun dans le monde qui peut être liée à plusieurs autres troubles.</p>
+    
+    <h4 id="causes" class="body">Causes</h4>
+    <p class="body">La dépression est causée par une combinaison de facteurs:</p>
+    <ul class="body">
+        <li>Génétique</li>
+        <li>Stress</li>
+        <li>Événements traumatiques
+            <ul class="body">
+                <li>Relation difficile ou abusive</li>
+                <li>Facteurs socio-économiques (revenu, logement, préjugé, travail, etc.)</li>
+                <li>Décès d'un proche</li>
+                <li>Perte d'un emploi</li>
+            </ul>
+        </li>
+        <li>Consommation de substances (alcool, drogues, etc.)</li>
+        <li>Autres problèmes médicaux chroniques
+            <ul class="body">
+                <li>Accidents cérébrovasculaires</li>
+                <li>Maladies cardiaques</li>
+                <li>Obésité</li>
+                <li>Maladie de Parkinson</li>
+                <li>Épilepsie</li>
+                <li>Arthrite</li>
+                <li>Cancer</li>
+                <li>Sida</li>
+                <li>Maladie pulmonaire obstructive chronique</li>
+                <li>Démence</li>
+                <li>Maladie d'Alzheimer</li>
+            </ul>
+        </li>
+        <li>Médicaments</li>
+    </ul>
+    
+    <h4 id="symptomes" class="body">Symptômes</h4>
+    <p class="body">Il existe plusieurs formes de dépression:</p>
+    <ul class="body">
+        <li>Dépression majeure: dure au moins 2 semaines et affecte de façon importante le fonctionnement général.</li>
+        <li>Dépression saisonnière: les symptômes reviennent au même moment chaque année (habituellement l'hiver).</li>
+        <li>Dépression postnatale: apparaît 6 mois après l'accouchement</li>
+    </ul>
+    <p class="body">Cependant, elles présentent toutes les mêmes symptômes qui peuvent varier d'une personne à une autre.</p>
+    <ul class="body">
+        <li>Symptômes physiques
+            <ul class="body">
+                <li>Fatigue et perte d'énergie</li>
+                <li>Grande agitation</li>
+                <li>Problèmes d'estomac</li>
+                <li>Douleurs musculaires et articulaires</li>
+                <li>Changement de poids ou d'appétit</li>
+                <li>Perturbation du sommeil (peu ou trop de sommeil)</li>
+            </ul>
+        </li>
+        <li>Symptômes psychologiques
+            <ul class="body">
+                <li>Déprime (grande tristesse)</li>
+                <li>Sentiment de culpabilité, d'inutilité, d'impuissance, d'échec ou de désespoir</li>
+                <li>Perte d'intérêt pour des activités</li>
+                <li>Pensées suicidaires</li>
+                <li>Difficulté de concentration</li>
+                <li>Difficulté à prendre des décisions</li>
+                <li>Diminution de l'estime de soi</li>
+                <li>Variation diurne (fluctuation de l'humeur)</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h4 id="traitement" class="body">Traitement</h4>
+    <p class="body">Des traitements sont possibles pour atténuer les effets des symptômes de la dépression et retrouver un fonctionnement normal.</p>    
+    <br>
+    <p class="body">Psychothérapie</p>
+    <ul class="body">
+        <li>Modifier les pensées et les comportements problématiques</li>
+        <li>Stratégies pour retrouver l'équilibre</li>
+    </ul>
+    <p class="body">Médicaments</p>
+    <ul class="body">
+        <li>Antidépresseurs
+            <ul class="body">
+                <li>Rétablir l'équilibre chimique du cerveau</li>
+                <li>Diminuer l'intensité des symptômes</li>
+                <li>Nécessitent 4 à 8 semaines pour un effet maximal</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h4 id="population" class="body">Population</h4>
+    <p class="body">La dépression est le trouble d'humeur le plus commun dans le monde, avec 5,4% des plus de 15 ans affectés et 12,6% des adultes. Le taux de dépression chez les femmes et les hommes est de 2:1, 
+    ce qui signifie que les femmes sont deux fois plus susceptibles de développer une dépression. 25% de la population en souffrira au cours de leur vie.</p>
+    
+    <h4 id="autres" class="body">Autres</h4>
+    <p class="body">Des complications peuvent survenir chez une personne atteinte de dépression, comme une dépendance à l'alcool ou aux drogues et des troubles anxieux.</p>
+    
+    <h3 id="interviews" class="body"><hr>Interviews</h3>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/F7hhT_nvDpo?si=w5VDloGoDgsgCQjv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/kNqNbwhoD7g?si=Me2Y6ugGx5R34duh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Wxn48HyQUY8?si=aBeCRjHYdAvmOqLB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <p id="citation1">«J'en étais arrivée à un point où j'en souffrais tellement, qu'un matin mon cerveau a littéralement vrillé. Du jour au lendemain, j'ai perdu la parole, je n'arrivais plus à coordonner mes mouvements, ou même à 
+    marcher sans tituber. Je n'étais plus capable de me concentrer, ou même de me souvenir de ce que j'avais fait 1-2 heures avant. C'est comme si la souffrance avait pris toute la place dans mon corps et mon esprit, puis chassé tout 
+    ce qui faisait de moi l'être humain que j'avais été jusque-là. Je n’avais jamais connu pareille douleur, je n’avais jamais autant souffert, je ne m’étais jamais sentie aussi morte de l'intérieur. Je n'étais plus qu'une plaie béante,
+    qui ne pensait plus qu'à mourir pour être enfin délivrée de cet enfer.» - Mak.</p>
+    <p id="citation2">«C'est possible d'aller mieux, c'est possible de retrouver le courage. Petit à petit, faire de petites choses, reprendre goût à la vie au travers de passions, d'animaux, de rencontres.. Tout est possible. Quand on 
+    est dépressif on se bat contre soi-même et ça nous rend plus fort par la force des choses. On lutte contre nous même pour rester en vie, se doucher, sortir, suivre des cours, avoir une vie, se faire à manger, prendre soin de soi et 
+    soin des autres qu'on aime.» - Anonyme.</p>
+    <p id="citation3">«Je savais qu’il y avait quelque chose d’étrange en moi, mais j’en ai pris conscience très tard. J’ai vécu des périodes sombres quand j’étais adolescente, mais tout dans le silence. Issue d’une famille musulmane, pour 
+    eux ça n'existe pas. Scarification, pensée morbide, se blesser volontairement, boulimie, prise de médicaments beaucoup d’éléments qui ont fait que je pensais que j’étais bizarre. Je me suis dis que ça allait passer avec le temps. Pendant 
+    des années, je faisais subir mon corps parce que je pensais que j’étais folle, certains me disaient même que j’étais possédée, on me disait de remercier Dieu d’avoir à manger, un toît, des choses qui n’avaient rien à voir et qui me frustraient
+    énormément.» - Sophie.</p>
+    
+    <h3 id="ressources" class="body"><br><br><hr>Ressources</h3>
+    <h4 id="aide-intervention" class="body">Aide intervention</h4>
+    <p class="body">Ressources pour l'aide et l'intervention:</p>
+    <ul class="body">
+        <li>Médecin de famille: orientation vers des spécialistes</li>
+        <li>Psychologues: fournissent des thérapies</li>
+        <li>Psychiatres: prescrivent des médicaments</li>
+    </ul>
+    <h4 id="organismes" class="body">Organismes</h4>
+    <p class="body">Organismes offrant un soutien pour la dépression:</p>
+    <ul class="body">
+        <li><a class="black" href="https://www.ecoute-entraide.org/" target="_blank">Écoute Entraide (anciennement Les Déprimés Anonymes)</a></li>
+        <li><a class="black" href="https://psentraide.org/" target="_blank">Source d'Entraide La Phare</a></li>
+        <li><a class="black" href="https://jeunessejecoute.ca/" target="_blank">Jeunesse J'Écoute</a></li>
+    </ul>
+    
+    <h3 id="réseaux-sociaux" class="body"><hr>Réseaux sociaux</h3>
+    <p class="body">Suivez-nous sur les réseaux sociaux:</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/parlonsdepression/" target="_blank"><img class="instagram" src="instagram.webp" alt="instagram"/></a>
+        <p class="instagram"><a href="https://www.instagram.com/parlonsdepression/" target="_blank">@parlonsdepression</a></p>
+        
+        <a href="https://www.instagram.com/journal_de_la_depression/" target="_blank"><img class="instagram" src="instagram.webp" alt="instagram"/></a>
+        <p class="instagram"><a href="https://www.instagram.com/journal_de_la_depression/" target="_blank">@journal_de_la_depression</a></p>
+        
+        <a href="https://www.instagram.com/highfunctioning.depression/" target="_blank"><img class="instagram" src="instagram.webp" alt="instagram"/></a>
+        <p class="instagram"><a href="https://www.instagram.com/highfunctioning.depression/" target="_blank">@highfunctioning.depression</a></p>
+    </div>
+    
+    <a id="top" href="#top"><img id="top-button" src="top.png" alt="Back to top"/></a>
+    
+    <div class="flex-container">
+        <div class="colonne-gauche">
+        </div>
+        <div class="colonne-droite"> 
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Design By SINON IDRISSA</p>
+</footer>
+
+<!-- Theme toggle -->
+<div class="themeToggle">
+    <div class="ToggleBtn">
+        <i class="fas fa-cog"></i>
+    </div>
+    <h3>Choisissez une couleur</h3>
+    <div class="buttons">
+        <div class="themeBtn" style="background: #0011ff;"></div>
+        <div class="themeBtn" style="background: #ffb404;"></div>
+        <div class="themeBtn" style="background: #2bff00;"></div>
+        <div class="themeBtn" style="background: #fc00dbe6;"></div>
+        <div class="themeBtn" style="background: #cb5805;"></div>
+        <div class="themeBtn" style="background: #fbff00;"></div>
+        <div class="themeBtn" style="background: #09c5ef;"></div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
